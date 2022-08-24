@@ -3,11 +3,9 @@ library(shinyWidgets)
 library(lubridate)
 library(glue)
 source("countdownCalculate.R")
-source("spinner.R")
 
 ui <- fluidPage(
     includeCSS("www/styles.css"),
-    # Flex box container with three items: Date input, animation & output.
     div(class = "flex-container-main",
       h1("Countdown Timer"),
       div(id = "dateInput",
