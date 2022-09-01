@@ -1,5 +1,5 @@
 # Script for remaining time calculation
-time_remaining <- function(datepicker, datenow) {
+timeRemaining <- function(datepicker, datenow) {
     time_left <- as.numeric(difftime(datepicker, datenow))
     days <- floor(time_left)
     # Extract the hours, minutes, seconds...
