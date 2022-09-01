@@ -2,8 +2,7 @@ library(shiny)
 library(shinyWidgets)
 library(lubridate)
 library(glue)
-library(here)
-source(here("countdownCalculate.R"))
+source("countdownCalculate.R")
 
 ui <- fluidPage(
     includeCSS("www/styles.css"),
